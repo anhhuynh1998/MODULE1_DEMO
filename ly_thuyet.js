@@ -64,7 +64,10 @@ function Animal(name,weight){
 }
 let objAnimal1 = new Animal("Eliphant",45.6);
  console.log(objAnimal1.toString());
- 
+ let objAnimal2 = new Animal("lulu",20);
+ objAnimal2.setName("Mouse");
+ console.log(objAnimal2);
+
 
 
 
