@@ -43,16 +43,22 @@
 // }
 // console.log(countVpwel('this is the numbers length'));
 // câu 4 : xây dựng lớp Animal
-class animal {
-    constructor(setName,setWeight){
-        this.name = setName;
-        this.weight = setWeight;
+function Animal(name,weight){
+    this.name = name;
+    this.weigh = weight;
+    this.getName = function(newName){
+        this.name = newName;
+    }
+    this.getWeiht= function(neWeight){
+        this.weigh = neWeight;
+    }
+    this.toString = function(name,weight){
+        this.toString = name + weight;
+    }
+    this.setName = function(newName){
+        this.
     }
 }
-let objAnimal1 = [
-    new animal("Elepant"),
-    new animal(45.6),
-]
 
 
 
