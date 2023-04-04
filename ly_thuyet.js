@@ -56,9 +56,15 @@ function Animal(name,weight){
         this.toString = name + weight;
     }
     this.setName = function(newName){
-        this.
+        this.name = newName;
+    }
+    this.setWeight = function(newWeight){
+        this.weigh = newWeight;
     }
 }
+let objAnimal1 = new Animal("Eliphant",45.6);
+ console.log(objAnimal1.toString());
+ 
 
 
 
